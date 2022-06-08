@@ -1,0 +1,49 @@
+ {
+  "name": "Link direct",
+  "description": "Link directp a heroku para el bot up",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Token del bot",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "api id",
+      "value": ""
+    },    
+    "API_HASH": {
+      "description": "api hash",
+      "value": ""
+    }, 
+    "USUARIO": {
+      "description": "Usuario de la moodle",
+      "value": ""
+    },
+    "PASSWORD": {
+      "description": "Contraseña de la moodle",
+      "value": ""
+    },
+    "USUARIO_ID": {
+      "description": "id del usuario de la moodle",
+      "value": ""
+    },
+    "ZIP_MB": {
+      "description": "Tamaño de las partes",
+      "value": ""
+    },
+    "MOODLE_URL": {
+      "description": "Url de la moodle",
+      "value": ""
+    },
+    "OWNER": {
+      "description": "Id del dueño del bot",
+      "value": ""
+
+
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
